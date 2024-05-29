@@ -6,7 +6,7 @@ GIT_COMMIT_MESSAGE="New build for deploy: "$(date)
 GIT_BRANCH_LOCAL="deploy"
 GIT_BRANCH_REMOTE="gh-pages"
 #GIT_REPO_REMOTE="https://github.com/<Organisation>/<Project>.git"
-GIT_REPO_REMOTE="https://github.com/HU-SD-SV1FEP1/FEP1-Boilerplate.git"
+GIT_REPO_REMOTE="https://github.com/Wassster/FitTrack"
 
 # abort on errors
 set -e
