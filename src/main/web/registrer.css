@@ -14,7 +14,7 @@ header {
   background: url(nog.jpeg) no-repeat;
   background-size: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0 0 30px rgba(255, 254, 254, 0.5);
 }
