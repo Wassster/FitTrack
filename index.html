@@ -17,13 +17,18 @@
     </header>
 
     <div class="wrapper">
-      <form class="form" action="">
+      <form class="form" action="" id="loginForm">
         <h1 class="kleur">Login</h1>
         <div class="input">
-          <input type="text" placeholder="Username" required />
+          <input type="text" id="username" placeholder="Username" required />
         </div>
         <div class="input">
-          <input type="password" placeholder="Password" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
         </div>
         <div class="remember">
           <label class="kleur"><input type="checkbox" /> Remember me</label>
@@ -39,5 +44,6 @@
         </div>
       </form>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
